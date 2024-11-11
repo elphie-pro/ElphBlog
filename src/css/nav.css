@@ -1,0 +1,100 @@
+.nav{
+    background-color: #7e22ce;
+    width: 100vw;
+    height: 7vh;
+    margin-left: -0.8%;
+    margin-top: -0.5%;
+    border: 2px solid #323232;
+    box-shadow: 4px 4px #ededed;
+}
+
+.head{
+    color: #ededed;
+    text-decoration: none !important;
+    margin-left: 1%;
+    font-weight: 1000;
+}
+
+.head span{
+    color: #323232;
+}
+
+.two{
+    margin-left: 88%;
+    margin-top: -3%;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.tw{
+    margin-left: 93%;
+    margin-top: -3%;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.sidebar{
+    background-color: #7e22ce;
+    width: 7vw;
+    height: 91.1vh;
+    margin-left: -0.4%;
+    margin-top: 0.2%;
+    border: 2px solid #323232;
+    box-shadow:  4px -4px  #ededed;
+}
+
+.div1{
+    background-color: #ededed;
+    width: 7.2vw;
+    height: .5vh;
+    margin-top: 160%;
+    margin-bottom: 50%;
+}
+
+.div2{
+    background-color: #ededed;
+    width: 7.2vw;
+    height: .5vh;
+    margin-top: 60%;
+}
+
+
+.text {
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .text:focus,
+  .text:hover {
+    color: #fff;
+  }
+  
+  .text:focus:after,
+  .text:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .text:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }

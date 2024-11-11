@@ -1,0 +1,92 @@
+.form {
+    --input-focus: #2d8cf0;
+    --font-color: #161616;
+    --font-color-sub: #000;
+    --bg-color: #fff;
+    --main-color: #323232;
+    padding: 20px;
+    background: #7e22ce;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px #ededed;
+    width: 20vw;
+    height: 50vh;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  
+  .title {
+    color: #ededed;
+    font-weight: 1000;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .title span {
+    color: #ededed;
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 2.5%;
+  }
+
+  .titl{
+    color: #ededed;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-left: 30%;
+  }
+  
+
+  .dont{
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 1000;
+  }
+
+  .input {
+    width: 18vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px #ededed;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+  }
+  
+  .input::placeholder {
+    color: var(--font-color-sub);
+    opacity: 0.8;
+  }
+  
+  .input:focus {
+    border: 2px solid var(--input-focus);
+  }
+  
+  .button-confirm {
+    margin: 50px auto 0 auto;
+    margin-top: 0%;
+    width: 5vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px #ededed;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+  }
+  
+  .button-confirm:hover{
+    width: 6vw;
+    height: 5vh;
+  }
