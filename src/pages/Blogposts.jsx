@@ -1,10 +1,12 @@
 import React from 'react'
-import Nav from '../components/Nav.jsx'
+import Navside from '../components/Navside.jsx'
+import Posts from '../components/Posts.jsx'
 
 const Blogposts = () => {
   return (
     <>
-    <Nav />
+    <Navside />
+    <Posts />
     </>
   )
 }

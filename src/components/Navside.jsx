@@ -4,7 +4,6 @@ import { auth } from '../firebase-config'
 import { signOut } from 'firebase/auth'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import Title from './Title'
 
 const Navside = () => {
     const navigate = useNavigate()
@@ -40,13 +39,10 @@ const Navside = () => {
                 <h2 style={{color: "#ededed", fontWeight:"1000", marginLeft:"8%"}}>BlogPosts</h2>
             </NavLink>
             <NavLink to='/settings' style={{ textDecoration: 'none' }} className="text">
-                <h2 style={{color: "#ededed", fontWeight:"1000", marginLeft:"8%"}}>Settings</h2>
+                <h2 style={{color: "#ededed", fontWeight:"1000", marginLeft:"8%"}}>Add Post</h2>
             </NavLink>
             <div className="div2"></div>
         </div>
-            <div className="box">
-                <Title/>
-            </div>
 
     </div>
     

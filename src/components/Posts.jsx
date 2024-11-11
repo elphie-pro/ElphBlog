@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import '../css/dashboard.css';
+import React from 'react'
+import '../css/post.css'
 import { db } from '../firebase-config';
 import { collection, getDocs } from 'firebase/firestore';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
-const Card = () => {
-  const [post, setPost] = useState([])
+const Posts = () => {
+    const [post, setPost] = useState([])
   const postCollectionRef  =collection(db, "blogposts")
 
     useEffect(() => {
@@ -16,12 +17,16 @@ const Card = () => {
 
       getPosts()
     }, [])
+
   return (
     <>
-    <div className="card-container">
-      {post.slice(0,3).map((pos) => {
+        <div className="boxx">
+          <h2 className='tt'>All Blogposts</h2>  
+        </div>
+        <div className="cardd-container">
+      {post.map((pos) => {
       return (
-        <div className="card" key={pos.id}>
+        <div className="cardd" key={pos.id}>
         <div className="">
           <div className="">  
             <div className="">{pos.Title}</div>
@@ -47,10 +52,12 @@ const Card = () => {
       )
     })}
     </div>
-    
+        <button className="bbtn">
+            Add New BlogPost
+        </button>
        
     </>
-  );
-};
+  )
+}
 
-export default Card;
+export default Posts

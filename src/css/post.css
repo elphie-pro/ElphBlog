@@ -1,21 +1,15 @@
-h1{
-    margin-left: 20%;
-    margin-top: -40%;
-    font-size: 4rem;
+.boxx{
+    
+}
+
+.tt{
+    margin-left: 10%;
+    margin-top: -45%;
+    font-size: 3rem;
     font-weight: 1000;
 }
 
-.posts{
-    margin-left: 15%;
-    margin-top: 7%;
-}
-
-.re{
-    font-size: 2rem;
-    font-weight: 1000;
-}
-
-.card{
+.cardd{
     padding: 1%;
     width: 20vw;
     height: 30vh;
@@ -27,9 +21,16 @@ h1{
     font-weight: 1000;
 }
 
-.vbtn{
+.cardd-container{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    margin-left: 15%;
+}
+
+.bbtn{
     margin-left: 45%;
-    margin-top: 3.5%;
+    margin-top: 1.5%;
     width: 15vw;
     height: 4vh;
     background-color: #7e22ce;
@@ -41,17 +42,7 @@ h1{
     cursor: pointer;
 }
 
-.intro{
-    font-size: .8rem;
-}
-
-.card-container {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 1.2rem; 
-  }
-
-  .vbtn:hover{
+.bbtn:hover{
     width: 16vw;
     height: 5vh;
 }

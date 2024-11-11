@@ -5,9 +5,11 @@ import Card from './Card'
 import { getDoc, doc } from 'firebase/firestore';
 import { auth, db } from '../firebase-config';
 import { onAuthStateChanged } from 'firebase/auth';
+import { useNavigate } from 'react-router';
 
 const Title = () => {
   const [userData, setUserData] = useState([])  ;
+  const navigate = useNavigate()
 
   useEffect(() => {
     const fetchUserData = () => {
@@ -40,7 +42,9 @@ const Title = () => {
             <Card />
         </div>
         <div className="button">
-          <button className='vbtn'>View All BlogPosts</button>
+          <button className='vbtn' onClick={() => {
+            navigate('/posts')
+          }}>View All BlogPosts</button>
         </div>
     </div>
     </>
