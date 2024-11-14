@@ -5,6 +5,7 @@ import Mainlayout from './layouts/Mainlayout'
 import Createpage from './pages/Createpage'
 import Dashboard from './pages/Dashboard'
 import Blogposts from './pages/Blogposts'
+import Addpost from './pages/Addpost'
 
 function App() {
   const router = createBrowserRouter(
@@ -14,6 +15,7 @@ function App() {
         <Route path='/create' element={<Createpage />}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/posts' element={<Blogposts/>}/>
+        <Route path='/add-post' element={<Addpost/>}/>
       </Route>
     )
   )

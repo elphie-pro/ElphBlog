@@ -38,7 +38,7 @@ const Navside = () => {
             <NavLink to='/posts' style={{ textDecoration: 'none' }} className="text">
                 <h2 style={{color: "#ededed", fontWeight:"1000", marginLeft:"8%"}}>BlogPosts</h2>
             </NavLink>
-            <NavLink to='/settings' style={{ textDecoration: 'none' }} className="text">
+            <NavLink to='/add-post' style={{ textDecoration: 'none' }} className="text">
                 <h2 style={{color: "#ededed", fontWeight:"1000", marginLeft:"8%"}}>Add Post</h2>
             </NavLink>
             <div className="div2"></div>

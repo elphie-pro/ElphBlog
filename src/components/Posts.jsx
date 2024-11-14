@@ -23,7 +23,8 @@ const Posts = () => {
         <div className="boxx">
           <h2 className='tt'>All Blogposts</h2>  
         </div>
-        <div className="cardd-container">
+        <div className="maincon">
+           <div className="cardd-container">
       {post.map((pos) => {
       return (
         <div className="cardd" key={pos.id}>
@@ -42,7 +43,7 @@ const Posts = () => {
               <i className=""></i>
               {pos.Location}
             </div>
-            <Link to="job.html" className="text" style={{ textDecoration: "none", color: "#ededed", fontSize: "1.1rem", marginLeft:"2%" }}>
+            <Link to="*" className="text" style={{ textDecoration: "none", color: "#ededed", fontSize: "1.1rem", marginLeft:"2%" }}>
               Read More
             </Link>
           </div>
@@ -52,6 +53,8 @@ const Posts = () => {
       )
     })}
     </div>
+        </div>
+       
         <button className="bbtn">
             Add New BlogPost
         </button>

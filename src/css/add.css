@@ -1,0 +1,126 @@
+.ttt{
+    margin-left: 8%;
+    margin-top: -46%;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.textbox{
+    width: 50vw;
+    height: 75vh;
+    background-color: #7e22ce;
+    margin-left: 13%;
+    margin-top: -2%;
+    box-shadow: 4px 4px #ededed;
+}
+
+.sidebox{
+    width: 25vw;
+    height: 75vh;
+    background-color: #7e22ce;
+    margin-top: -38.8%;
+    margin-left: 70%;
+    box-shadow: 4px 4px #ededed;
+}
+
+.te{
+    width: 45vw;
+    margin-left: 4%;
+    height: 20vh;
+    margin-top: -1%;
+    border: 3px solid #323232;
+    outline: none;
+    box-shadow: 4px 4px #ededed;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #323232;
+    font-weight: 900;
+}
+
+.te::placeholder{
+    color: #323232;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.te:focus{
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+h3{
+    margin-left: 2%;
+    font-weight: 1000
+}
+
+.tee{
+    width: 45vw;
+    margin-left: 4%;
+    height: 40vh;
+    margin-top: -1%;
+    border: 3px solid #323232;
+    outline: none;
+    box-shadow: 4px 4px #ededed;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #323232;
+    font-weight: 900;
+}
+
+.tee::placeholder{
+    color: #323232;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.tee:focus{
+    font-weight: 900;
+}
+
+.aut {
+    width: 18vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: 3px solid #323232;
+    background-color: #ededed;
+    box-shadow: 4px 4px #ededed;
+    font-size: 15px;
+    font-weight: 600;
+    color: #323232;
+    padding: 5px 10px;
+    outline: none;
+    margin-left: 5%;
+    margin-top: -2%;
+  }
+
+  .aut::placeholder {
+    color: #323232;
+    opacity: 0.8;
+  }
+  
+  .aut:focus {
+    border: 2px solid #323232;
+  }
+
+.ad{
+    width: 22vw;
+    height: 20vh;
+    margin-left: 3%;
+    border-radius: 5px;
+    border: 3px solid #323232;
+    background-color: #ededed;
+    box-shadow: 4px 4px #ededed;
+    padding: 5px 10px;
+    outline: none;
+    font-weight: 900;
+}
+
+.ad::placeholder{
+    color: #323232;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
