@@ -6,6 +6,7 @@ import Createpage from './pages/Createpage'
 import Dashboard from './pages/Dashboard'
 import Blogposts from './pages/Blogposts'
 import Addpost from './pages/Addpost'
+import Post from './pages/Post'
 
 function App() {
   const router = createBrowserRouter(
@@ -16,6 +17,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/posts' element={<Blogposts/>}/>
         <Route path='/add-post' element={<Addpost/>}/>
+        <Route path='/posts/:id' element= {<Post/>}/>
       </Route>
     )
   )

@@ -32,12 +32,12 @@ const Body = () => {
     <h2 className='ttt'>Add a New Blog Post</h2>
     <div className="textbox">
         <h3>Introduction </h3>
-        <textarea name="" placeholder='(Max 30 words)' id="" className='te' required onChange={(e) => {
+        <textarea name="" placeholder='Required' id="" className='te' required onChange={(e) => {
           setIntro(e.target.value)
         }}></textarea>
 
         <h3>Blogpost</h3>
-        <textarea name="" className='tee' placeholder='(Max 150 words)' id="" onChange={(e) => {
+        <textarea name="" className='tee' placeholder='Required' id="" onChange={(e) => {
           setPost(e.target.value)
         }}></textarea>
     </div>
@@ -64,7 +64,7 @@ const Body = () => {
         }}></textarea>
     </div>
 
-    <button className='bbtn' onClick={() => {
+    <button className='bbbtn' onClick={() => {
       addPost()
     }}>Add BlogPost</button>
    </div>

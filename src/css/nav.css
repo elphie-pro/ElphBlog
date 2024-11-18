@@ -98,3 +98,18 @@
     transition-duration: 400ms;
     transition-property: width, left;
   }
+
+  .img{
+    width: 2vw;
+    position: absolute;
+    margin-left: -2.3%;
+    margin-top: -0.1%;
+  }
+
+  .to{
+    margin-left: 93%;
+    margin-top: -3%;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 1000;
+}

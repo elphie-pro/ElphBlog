@@ -27,7 +27,7 @@ const Card = () => {
             <div className="">{pos.Title}</div>
             <h3 className="">By : {pos.Author}</h3>
           </div>
-          <div className="intro">
+          <div className="inr">
             {pos.Introduction}
           </div>
           <h3 className="">{pos.Date}</h3>
@@ -37,7 +37,7 @@ const Card = () => {
               <i className=""></i>
               {pos.Location}
             </div>
-            <Link to="job.html" className="text" style={{ textDecoration: "none", color: "#ededed", fontSize: "1.1rem", marginLeft:"2%" }}>
+            <Link to={`/posts/${pos.id}`} className="text" style={{ textDecoration: "none", color: "#ededed", fontSize: "1.1rem", marginLeft:"2%" }}>
               Read More
             </Link>
           </div>
