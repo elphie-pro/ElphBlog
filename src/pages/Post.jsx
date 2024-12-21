@@ -5,6 +5,7 @@ import { useParams } from 'react-router'
 import Nav from '../components/Nav'
 import { MoonLoader } from 'react-spinners'
 import '../css/posts.css'
+import button from '../assets/trash-svgrepo-com.svg'
  
 const Post = () => {
     const [post, setPost] = useState(null)
@@ -49,10 +50,17 @@ const Post = () => {
             <h2>Additional Content:</h2>
             <h3>{post.Additional}</h3>
            </div>
+           <button className='delete' onClick={() => {
+            const mailtoUrl = "mailto:onazjr2006@gmail.com?subject=Request To Delete Post&body=Blog%20Title";
+            window.open(mailtoUrl, "_blank");
+          }}><img src={button} alt="" /> Delete Post</button>
         </div>
+        
       ) : (
         < MoonLoader className='loader'/>
       )}
+      
+
     </>
   )
 }

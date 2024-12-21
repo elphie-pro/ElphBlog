@@ -7,6 +7,7 @@
     padding: 1%;
     border-radius: 10px;
     box-shadow: 4px 4px #ededed;
+    font-size: .9rem;
 }
 
 .mainpost{
@@ -20,6 +21,7 @@
     overflow-y: scroll;
     border-radius: 10px;
     box-shadow: 4px 4px #ededed;
+    font-size: .9rem;
 }
 
 .mainpost::-webkit-scrollbar {
@@ -58,7 +60,7 @@
 
  .sideDe{
     width: 20vw;
-    height: 50vh;
+    height: 45vh;
     background-color: #7e22ce;
     margin-left: 70%;
     margin-top: -9.5%;
@@ -69,7 +71,7 @@
 
  .fin{
     width: 20vw;
-    height: 20vh;
+    height: 23vh;
     border-radius: 10px;
     box-shadow: 4px 4px #ededed;
     background-color: #7e22ce;
@@ -79,6 +81,30 @@
  }
 
  .loader{
-    margin-left: 45%;
+    margin-left: 50%;
     margin-top: 20%;
+ }
+
+ .delete img{
+   width: 10%;
+ }
+
+ .delete{
+   margin-left: 80%;
+   width: 8vw;
+   height: 4vh;
+   margin-top: 1%;
+   font-size: .9rem;
+   font-weight: 900;
+   background-color: red;
+   border: 2px solid #343434;
+   box-shadow: 2px 2px #ededed;
+   border-radius: 5px;
+ }
+
+ .delete:hover{
+   width: 8.5vw;
+   height: 4.5vh;
+   box-shadow: 2.5px 2.5px #ededed;
+   cursor: pointer;
  }

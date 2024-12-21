@@ -63,7 +63,8 @@
 
 .text {
     color: #e1e1e1;
-    font-family: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .9rem;
     font-weight: 800;
     cursor: pointer;
     position: relative;
@@ -103,7 +104,7 @@
     width: 2vw;
     position: absolute;
     margin-left: -2.3%;
-    margin-top: -0.1%;
+    margin-top: -0%;
   }
 
   .to{

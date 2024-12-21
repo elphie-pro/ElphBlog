@@ -55,7 +55,7 @@ const Body = () => {
           setLocation(e.target.value)
         }}/>
         <h3>Date</h3>
-        <input type="text" className="aut" onChange={(e) => {
+        <input type="date" className="aut" onChange={(e) => {
           setDate(e.target.value)
         }}/>
         <h3>Additional Content</h3>
