@@ -54,7 +54,7 @@ const Createpage = () => {
         </div>
         <button className="button-confirm" onClick={() => {
           register(name, email)
-        }}>Sign Up! </button>
+        }}>Sign Up! </button> 
     </div>
    </>
   )
