@@ -1,0 +1,92 @@
+h1{
+    margin-left: 20%;
+    margin-top: -40%;
+    font-size: 4rem;
+    font-weight: 1000;
+}
+
+.posts{
+    margin-left: 15%;
+    margin-top: 7%;
+}
+
+.re{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.card{
+    padding: 1%;
+    width: 20vw;
+    height: 30vh;
+    background-color: #7e22ce;
+    border-radius: 5%;
+    box-shadow: 4px 4px #ededed;
+    margin-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    overflow-y: scroll;
+}
+
+.card::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+  }
+  
+ .card::-webkit-scrollbar-thumb {
+    content: "";
+    width: 15px;
+    height: 135px;
+    opacity: 0.4;
+    background: #888;
+    position: absolute;
+    top: 5px;
+    right: -17px;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    cursor: grab;
+ }
+
+ .card::-webkit-scrollbar-thumb:hover {
+    background: #555;    
+    opacity: 0.6;
+ }
+
+ .card::-webkit-scrollbar-thumb:active:hover {
+    background: #555;    
+    opacity: 0.6;          
+    cursor: grabbing;
+ }
+
+ .card::-webkit-scrollbar-track {
+    border-radius: 5px;
+ }
+
+.vbtn{
+    margin-left: 45%;
+    margin-top: 3.5%;
+    width: 15vw;
+    height: 4vh;
+    background-color: #7e22ce;
+    box-shadow: 2px 2px #ededed;
+    border: none;
+    color: white;
+    font-weight: 1000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inr{
+    font-size: .8rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1.2rem; 
+  }
+
+  .vbtn:hover{
+    width: 16vw;
+    height: 5vh;
+}

@@ -1,0 +1,91 @@
+
+
+.tt{
+    margin-left: 10%;
+    margin-top: -45%;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+
+
+.cardd{
+    padding: 1%;
+    width: 20vw;
+    height: 30vh;
+    background-color: #7e22ce; 
+    border-radius: 5%;
+    box-shadow: 4px 4px #ededed;
+    margin-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+}
+
+.cardd-container{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    margin-left: 15%;
+    width: 80vw;
+    height: 69vh;
+    padding: 1%;
+    margin-top: -2%;
+    position: fixed;
+    overflow-y: scroll;
+    font-size: .9rem;
+}
+
+.cardd-container::-webkit-scrollbar {
+    width: 15px;
+    
+  }
+  
+  .cardd-container::-webkit-scrollbar-thumb {
+    content: "";
+    width: 15px;
+    height: 135px;
+    opacity: 0.4;
+    background: #888;
+    position: absolute;
+    top: 5px;
+    right: -17px;
+    border: 0.5px solid rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    cursor: grab;
+  }
+
+  .cardd-container::-webkit-scrollbar-thumb:hover {
+    background: #555;    
+    opacity: 0.6;
+  }
+
+  .cardd-container::-webkit-scrollbar-thumb:active:hover {
+    background: #555;    
+    opacity: 0.6;          
+    cursor: grabbing;
+  }
+
+.bbtn{
+    margin-left: 45%;
+    margin-top: 35.7%;
+    width: 15vw;
+    height: 4vh;
+    position: fixed;
+    background-color: #7e22ce;
+    box-shadow: 2px 2px #ededed;
+    border: none;
+    color: white;
+    font-weight: 1000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bbtn:hover{
+    width: 16vw;
+    height: 5vh;
+}
+
+.loaderr{
+  margin-left: 50%;
+  margin-top: 15%;
+}
