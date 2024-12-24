@@ -90,3 +90,24 @@
     width: 6vw;
     height: 5vh;
   }
+
+  @media (max-width:320px) { 
+    body{
+      height: 00vh;
+    }
+    .form{
+      width: 80vw;
+      height: 50vh;
+      margin-left: 5%;
+      margin-top: 50%;
+    }
+    .input{
+      width: 68vw;
+    }
+    .button-confirm{
+      width: 35vw;
+    }
+    .button-confirm:hover{
+      width: 36vw;
+    }
+  }

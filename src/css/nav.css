@@ -114,3 +114,21 @@
     text-decoration: none;
     font-weight: 1000;
 }
+
+@media (max-width:320px) {
+  body{
+    overflow-y: hidden;
+  }
+  .nav{
+    width: 130vw;
+    height: 7vh;
+    margin-left: -3.4%;
+    margin-top: -3.1%;
+  }
+  .two{
+    display: none;
+  }
+  .head{
+    margin-left: 2%;
+  }
+}
