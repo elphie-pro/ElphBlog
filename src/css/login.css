@@ -92,13 +92,10 @@
   }
 
   @media (max-width:320px) { 
-    body{
-      height: 00vh;
-    }
     .form{
       width: 80vw;
       height: 50vh;
-      margin-left: 5%;
+      margin-left: 0.5%;
       margin-top: 50%;
     }
     .input{
@@ -110,4 +107,56 @@
     .button-confirm:hover{
       width: 36vw;
     }
+    .titl{
+      font-size: .83rem;
+      margin-left: 20%;
+    }
   }
+
+  @media (max-width:375px) {
+    .form{
+      width: 70vw;
+      height: 50vh;
+      margin-left: 0.5%;
+      margin-top: 30%;
+    }
+    .input{
+      width: 65vw;
+      margin-left: -2%;
+    }
+    .button-confirm{
+      width: 35vw;
+      font-weight: 1000;
+    }
+    .button-confirm:hover{
+      width: 36vw;
+    }
+    .titl{
+      font-size: .93rem;
+      margin-left: 20%;
+    }
+  }
+
+  /* @media (max-width:425px) {
+    .form{
+      width: 70vw;
+      height: 50vh;
+      margin-left: 0.5%;
+      margin-top: 30%;
+    }
+    .input{
+      width: 65vw;
+      margin-left: -2%;
+    }
+    .button-confirm{
+      width: 35vw;
+      font-weight: 1000;
+    }
+    .button-confirm:hover{
+      width: 36vw;
+    }
+    .titl{
+      font-size: .93rem;
+      margin-left: 20%;
+    }
+  } */

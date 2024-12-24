@@ -132,3 +132,35 @@
     margin-left: 2%;
   }
 }
+
+@media (max-width:375px) {
+  .nav{
+    width: 130vw;
+    height: 6vh;
+    margin-left: -3.4%;
+    margin-top: -3.1%;
+  }
+  .two{
+    display: none;
+  }
+  .head{
+    margin-left: 2%;
+    margin-top:2%;
+  }
+}
+
+@media (max-width:425px) {
+  .nav{
+    width: 130vw;
+    height: 6vh;
+    margin-left: -3.4%;
+    margin-top: -2.1%;
+  }
+  .two{
+    display: none;
+  }
+  .head{
+    margin-left: 2%;
+    margin-top:2%;
+  }
+}
