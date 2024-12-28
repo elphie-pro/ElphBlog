@@ -117,7 +117,7 @@
     .form{
       width: 70vw;
       height: 50vh;
-      margin-left: 0.5%;
+      margin-left: 8%;
       margin-top: 30%;
     }
     .input{
@@ -137,11 +137,11 @@
     }
   }
 
-  /* @media (max-width:425px) {
+  @media (max-width:425px) {
     .form{
       width: 70vw;
       height: 50vh;
-      margin-left: 0.5%;
+      /* margin-left: 9%; */
       margin-top: 30%;
     }
     .input{
@@ -159,4 +159,4 @@
       font-size: .93rem;
       margin-left: 20%;
     }
-  } */
+  }
